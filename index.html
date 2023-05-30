@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Artwork</title>
+		<style>
+			body, form{
+				margin:20px auto;
+				max-width:800px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#task{
+				flex-grow:100;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="search" method="get">
+			<fieldset>
+				<legend>Search img by id</legend>
+                <legend>(ID can be: 27992,27993, 129884) </legend>
+				<label for="Imgid">Image ID:</label><br />
+				<input id="Imgid" name="id" type="text" />
+				<input type="submit"  />
+			</fieldset>
+		</form>
+	</body>
+</html>
